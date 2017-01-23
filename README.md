@@ -1,4 +1,4 @@
-# Brown-Iannuzzi-Ron-Dotsch
+# Brown-Iannuzzi2016
 Replication of Brown-Iannuzzi, J. L., Dotsch, R., Cooley, E., &amp; Payne, B. K. (2016).
 
 **Author: Catherine Thomas**
