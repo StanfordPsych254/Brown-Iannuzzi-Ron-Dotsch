@@ -103,8 +103,7 @@ ci <- function(x) {sem(x) * 1.96}
 
 ####Import data	
 ```{r loaddf}
-d <- read_csv("data/pilot_data.csv", na = c("", "NA")) 
-head(d)
+d <- read_csv("../data/pilot_data.csv", na = c("", "NA")) 
 ``` 
 
 #### Data exclusion / filtering and preparing for data analysis
@@ -117,7 +116,7 @@ tidy.d <- d %>%
   gather(Hardwork_W:CashS_NW, key=Question, value=rating) %>%
     separate(Question, c("Question", "Image"), "_") %>%
   mutate(Image = fct_recode(Image, "NonWelfare"="NW", "Welfare"="W"))
-ms$Question = as.factor(ms$Question)
+tidy.d$Question = as.factor(tidy.d$Question)
 length(unique(tidy.d$ID))
 ```
 
@@ -132,9 +131,9 @@ ms <- tidy.d %>%
   summarise(Mean_Rating = mean(rating, na.rm=TRUE), 
   sd = sd(rating), 
   sem = sem(rating), 
-  ci.lo = Mean_Rating - sem*1.96, 
-  ci.hi = Mean_Rating + sem*1.96, 
-  "ci"=ci95(rating))
+  "ci" = ci(rating), 
+  ci.lo = Mean_Rating - ci, 
+  ci.hi = Mean_Rating + ci)
 ```
 
 ```{r etasq}
@@ -160,11 +159,6 @@ test
 
 *Side-by-side graph with original graph is ideal here*
 ```{r}
-ggplot(students, aes(x = Height)) + 
-  geom_dotplot() + 
-  coord_flip()
-```
-```{r}
 ggplot(data = ms, aes(x = Question, y = Mean_Rating, ymin = 1, ymax = 6, colour = Image)) +
   geom_point(position = position_dodge(width = 0.1)) +
   geom_errorbar(aes(ymin=Mean_Rating-ci, ymax=Mean_Rating+ci),  
@@ -176,7 +170,7 @@ ggplot(data = ms, aes(x = Question, y = Mean_Rating, ymin = 1, ymax = 6, colour 
 
 # Data from original study
 ```{r}
-d.study3 <- read_csv("Study3w1images.csv", na = c("", "NA")) 
+d.study3 <- read_csv("../data/Study3w1images.csv", na = c("", "NA")) 
 head(d)
 ggplot(data = d.study3, aes(x = Question, y = Mean_Rating, ymin = 1, ymax = 6, colour = Image)) +
   geom_point(position = position_dodge(width = 0.1)) +
