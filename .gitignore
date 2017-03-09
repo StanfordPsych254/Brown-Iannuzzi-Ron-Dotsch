@@ -2,12 +2,10 @@
 *.Rproj
 *.Rproj.user
 *.Rhistory
-*.RData
 *.Ruserdata
 *.history
 
 # Image/output files unless otherwise specified
-*.pdf
 *.png
 *.docx
 *.doc
