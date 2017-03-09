@@ -31,8 +31,10 @@ packrat/src*/
 auth.json
 my-own-auth.json
 mturk/
-
+mturk-and-gmail.txt
 
 # Specific file keep
 !README.md
 !/original_paper/Brown-Iannuzzi_et_al_2016.pdf
+!/original_paper/Supplemental Material copy.pdf
+!/original_paper/ExperimentalMaterials_Study123.pdf
