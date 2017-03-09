@@ -1,5 +1,5 @@
 ---
-title: "Replication of The Relationship Between Mental Representations of Welfare Recipients and Attitudes Toward Welfare by Brown-Iannuzzi, J. L., Dotsch, R., Cooley, E., & Payne, B. K. (2016, Psychological Science)"
+title: "Replication of 'The Relationship Between Mental Representations of Welfare Recipients and Attitudes Toward Welfare' by Brown-Iannuzzi, J. L., Dotsch, R., Cooley, E., & Payne, B. K. (2016, Psychological Science)"
 author: "Catherine Thomas (ccthomas@stanford.edu)"
 date: "`r format(Sys.time(), '%B %d, %Y')`"
 output:
@@ -87,21 +87,23 @@ Data preparation following the analysis plan.
 ###Data Preparation
 ```{r setup, include=FALSE}
 library(tidyverse)
-library(knitr)
 library(ggplot2)
+library(foreign)
 library(forcats)
 library(car)
+library(knitr)
 library(heplots)
 sem <- function(x) {sd(x, na.rm=TRUE) / sqrt(length(x))}
 ci95.norm <- function(x) {
   me <- sem(x) * qnorm(.975)
   c(mean(x) - me, mean(x) + me)
 }
+ci <- function(x) {sem(x) * 1.96}
 ```
 
 ####Import data	
-```{r load}
-d <- read_csv("pilot_data.csv", na = c("", "NA")) 
+```{r loaddf}
+d <- read_csv("/Users/catherine.c.thomas/Dropbox/Stanford_PhD/PSYC_254_Exp_Methods/Brown-Iannuzzi2016/data/pilot_data.csv", na = c("", "NA")) 
 head(d)
 ``` 
 
