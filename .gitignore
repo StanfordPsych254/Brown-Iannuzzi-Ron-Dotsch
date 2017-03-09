@@ -4,6 +4,7 @@
 *.Rhistory
 *.Ruserdata
 *.history
+*.RData
 
 # Image/output files unless otherwise specified
 *.png
