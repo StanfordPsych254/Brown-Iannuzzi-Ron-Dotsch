@@ -1,5 +1,5 @@
 ---
-title: "Replication of "The Relationship Between Mental Representations of Welfare Recipients and Attitudes Toward Welfare" by Brown-Iannuzzi, J. L., Dotsch, R., Cooley, E., & Payne, B. K. (2016, Psychological Science)"
+title: "Replication of The Relationship Between Mental Representations of Welfare Recipients and Attitudes Toward Welfare by Brown-Iannuzzi, J. L., Dotsch, R., Cooley, E., & Payne, B. K. (2016, Psychological Science)"
 author: "Catherine Thomas (ccthomas@stanford.edu)"
 date: "`r format(Sys.time(), '%B %d, %Y')`"
 output:
@@ -86,7 +86,6 @@ Data preparation following the analysis plan.
 
 ###Data Preparation
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
 library(tidyverse)
 library(knitr)
 library(ggplot2)
@@ -101,7 +100,7 @@ ci95.norm <- function(x) {
 ```
 
 ####Import data	
-```{r cars}
+```{r load}
 d <- read_csv("pilot_data.csv", na = c("", "NA")) 
 head(d)
 ``` 
@@ -174,7 +173,7 @@ ggplot(data = ms, aes(x = Question, y = Mean_Rating, ymin = 1, ymax = 6, colour 
 ```
 
 ### Data from replication of the original study (not the study the current study replicates because that data is not available online) 
-```{r cars}
+```{r load2}
 d_rep = read.spss("Study3_SupportforWelfare (2).sav", to.data.frame=TRUE)
 
 tidy.d.rep <- d_rep %>%
