@@ -1,0 +1,229 @@
+---
+title: "Replication of "The Relationship Between Mental Representations of Welfare Recipients and Attitudes Toward Welfare" by Brown-Iannuzzi, J. L., Dotsch, R., Cooley, E., & Payne, B. K. (2016, Psychological Science)"
+author: "Catherine Thomas (ccthomas@stanford.edu)"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+output:
+  html_document:
+    toc: yes
+    toc_depth: 3
+    toc_float:
+      collapsed: false
+---
+
+##Introduction
+
+<!-- [No abstract is needed.]  Each replication project will have a straightforward, no frills report of the study and results.  These reports will be publicly available as supplementary material for the aggregate report(s) of the project as a whole.  Also, to maximize project integrity, the intro and methods will be written and critiqued in advance of data collection.  Introductions can be just 1-2 paragraphs clarifying the main idea of the original study, the target finding for replication, and any other essential information.  It will NOT have a literature review -- that is in the original publication. You can write both the introduction and the methods in past tense.   -->
+
+Brown-Iannuzzi et al. (2016) investigate the extent to which opposition to welfare may be driven by negative stereotypes, or mental representations, of welfare recipients. In Study 1, images of stereotypic welfare and non-welfare faces were generated through a reverse correlation task in which participants selected the image in a pair of faces that looked more like a welfare recipient. In Study 2, a separate sample was shown these images of interest (the welfare and non-welfare faces) and asked to rate these images on various characteristics, such as race, laziness, responsibility, competence, autonomy. As predicted, the stereotypic welfare recipient image generated from Study 1 was rated in Study 2 in line with stereotypes of welfare recipients and African Americans. Study 3 sought to examine how these stereotypes influenced support for welfare and found that participants were less likely to rate the welfare images as responsible and less likely to support giving them welfare compared to the stereotypic non-welfare face.
+
+In this project, we replicated the Study 3 replication with Study 1 images as presented in the supplemental materials. The original study found that participants were much more likely to rate the stereotypic welfare image as less intelligent, hardworking, less reponsible broadly, and less responsible with both food stamps and cash assistance. They found support for their primary hypothesis that participants were less likely to support giving the person in the welfare image food stamps or cash assistance than the person in the non-welfare image. The primary test that this study seeks to replicate is the difference in support for cash assistance between the welfare and non-welfare images from Study 1.        
+
+##Methods
+A sample of 58 participants will be recruited from Amazon Mechanical Turk. Using a within-subjects design, participants will be told they will see a series of "fuzzy" images and will be asked to make judgments about the face in the images based on a glance. They are told that the images are composite photos of applicants to government assistance programs and that some of the people were responsible with the benefits while others were not. They are asked to rate each image on the extent to which the person appears intelligent, hardworking, responsible, responsible with use of food stamps, and responsible with use of cash assistance. They are also asked how supportive they would be to give this person food stamps or cash assistance. 
+
+To review the experiment, click [here]{https://stanforduniversity.qualtrics.com/SE/?SID=SV_cBlO9F37Q77ESAB}.
+
+###Power Analysis
+
+<!-- Original effect size, power analysis for samples to achieve 80%, 90%, 95% power to detect that effect size.  Considerations of feasibility for selecting planned sample size. -->
+
+The original study (n=234) found that participants were less supportive of giving cash assistance to the welfare-recipient image (M = 2.95, 95% CI [2.78, 3.13]) compared to the non-recipient image (M = 3.80, 95% CI [3.65, 3.96]), eta-squared = 0.26. The original power to detect this effect was 0.99. This original study was a replication of Study 3 (n=229) in the primary paper which found that participants were less supportive of giving cash assistance to the welfare-recipient image (M = 3.57, 95% CI [3.40, 3.75]) compared to the non-recipient image (M = 4.19, 95% CI [4.03, 4.35]), eta-squared=0.13. We use a weighted average of these eta-squared effect sizes (eta-squared=0.20), to conduct the power analyses.
+
+To achieve 80% power, the sample size required would be 35. 
+To achieve 90% power, the sample size required would be 45.
+To achieve 95% power, the sample size required would be 55.
+To achieve 99% power, the sample size required would be 77.
+
+###Planned Sample
+
+<!-- Planned sample size and/or termination rule, sampling frame, known demographics if any, preselection rules if any. -->
+
+The planned sample size is 58 with a goal of having 55 participants complete the study. There will be no termination rule. The only exclusion rule will be whether a participant fails to commit to carefully reading the content of the experiment.  
+
+
+###Materials & Procedure
+All of the materials, including the images and scales, for this study were published freely online at [Mental Representations of Welfare Recipients](https://dx.doi.org/10.6084/m9.figshare.c.3468495.v2). 
+
+The procedure described in the supplemental materials was followed, as follows:
+"Participants were told they would see a series of “fuzzy” images of real people. As an explanation for the blurry nature of the images, participants were told that the images look distorted because they were a composite of photos of people who have applied for government welfare programs. Additionally, participants were told some of the applicants turned out to be responsible recipients of welfare benefits, while others were irresponsible recipients of the benefits. Then, participants were asked to make a series of judgements about each image. Importantly, participants were given no indication whether the image was supposedly a composite of responsible or irresponsible welfare recipients. Participants then rated four filler images (the same filler images used in Study 1 and 2) so that the comparison between the two images of interest would not be salient to participants. The images of interest were the average welfare and non-recipient images generated from Study 1.
+To replicate key findings from Study 1, participants first rated each image on the degree to which the pictured person seemed intelligent (1 = extremely unintelligent; 6 = extremely intelligent) and hardworking (1 = extremely lazy; 6 = extremely hardworking). Then, participants were asked the extent to which the pictured person seemed responsible (1 = extremely irresponsible; 6 = extremely responsible). We also asked participants the extent to which they believed the pictured person would use food stamps responsibly (1 = definitely would not use responsibly; 6 = definitely would use responsibly), and would use cash assistance responsibly (1 = definitely would not use responsibly; 6 = definitely would use responsibly). Finally, participants were asked how supportive they would be to give the pictured person food stamps (1 = completely unsupportive; 6 = completely supportive) and cash assistance (1 = completely unsupportive; 6 = completely supportive). The participants also completed demographic information including gender, age, and race/ethnicity."
+
+###Analysis Plan
+
+The means and 95% CIs for the ratings of the two images of interest (welfare and non-welfare as generated in Study 1) on support for cash assistance will be generated in addition to the eta-squared value. Any observations with missing data on the variables for the key analysis will be excluded. While not explicitly stated, it appears as though the original authors used this exclusion rule. No covariates will be used. 
+
+<!-- **Clarify key analysis of interest here**  You can also pre-specify additional analyses you plan to do. -->
+
+For the key analysis of interest, the eta-squared effect size will be calculated on the difference between the ratings of support of cash assistance for the welfare image compared to the non-welfare image. This eta-squared will take into account the within-subjects correlations between the two image ratings. The replication will be considered successful if the effect size is statistically greater than zero. 
+
+As a supplmental analysis, we will run a paired t-test to assess whether there is a statistical difference between the ratings on support for cash assistance for the welfare compared to the non-welfare image because it is more standard in the literature.
+
+###Differences from Original Study
+
+<!-- Explicitly describe known differences in sample, setting, procedure, and analysis plan from original study.  The goal, of course, is to minimize those differences, but differences will inevitably occur. Also, note whether such differences are anticipated to make a difference based on claims in the original article or subsequent published research on the conditions for obtaining the effect. -->
+
+The only known deviation from this procedure was with regards to the filler images and the instructional manipulation check. The filler images for the current study were selected at random from the 400 images used in Study 1 available from the online open source materials but may not have been the same filler images used in the original study. An instructional manipulation check was developed for the purposes of this study and likely differed from that used in the original study.
+
+### Methods Addendum (Post Data Collection)
+
+<!-- You can comment this section out prior to final report with data collection. -->
+
+#### Actual Sample
+  Sample size, demographics, data exclusions based on rules spelled out in analysis plan.
+
+#### Differences from pre-data collection methods plan
+  Any differences from what was described as the original plan, or “none”.
+
+
+##Results
+
+
+### Data preparation
+
+Data preparation following the analysis plan.
+
+####Load Relevant Libraries and Functions
+
+###Data Preparation
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(knitr)
+library(ggplot2)
+library(forcats)
+library(car)
+library(heplots)
+sem <- function(x) {sd(x, na.rm=TRUE) / sqrt(length(x))}
+ci95.norm <- function(x) {
+  me <- sem(x) * qnorm(.975)
+  c(mean(x) - me, mean(x) + me)
+}
+```
+
+####Import data	
+```{r cars}
+d <- read_csv("pilot_data.csv", na = c("", "NA")) 
+head(d)
+``` 
+
+#### Data exclusion / filtering and preparing for data analysis
+```{r tidy}
+tidy.d <- d %>%
+  rename(ID = V1) %>%
+  select(ID, Hardwork_W:CashS_NW, -starts_with("White")) %>%
+  mutate_each(funs(as.numeric(., na.rm=TRUE)), contains("_W")) %>%
+  mutate_each(funs(as.numeric(., na.rm=TRUE)), contains("_NW")) %>%
+  gather(Hardwork_W:CashS_NW, key=Question, value=rating) %>%
+    separate(Question, c("Question", "Image"), "_") %>%
+  mutate(Image = fct_recode(Image, "NonWelfare"="NW", "Welfare"="W"))
+ms$Question = as.factor(ms$Question)
+length(unique(tidy.d$ID))
+```
+
+### Confirmatory analysis
+
+The analyses as specified in the analysis plan.  
+
+```{r means}
+# getting table of means and 95%CI for ratings of welfare and non-welfare images
+ms <- tidy.d %>% 
+  group_by(Question, Image) %>% # it removes the last var granularity
+  summarise(Mean_Rating = mean(rating, na.rm=TRUE), 
+  sd = sd(rating), 
+  sem = sem(rating), 
+  ci.lo = Mean_Rating - sem*1.96, 
+  ci.hi = Mean_Rating + sem*1.96, 
+  "ci"=ci95(rating))
+```
+
+```{r etasq}
+# eta-squared effect size of diff btw welfare and non-welfare images on support for cash assistance
+df <- tidy.d[tidy.d$Question=="CashS",]
+mod_ez <- ez::ezANOVA(df, 
+                      dv = rating, 
+                      wid = ID, 
+                      within = .(Image), 
+                      type = 1, detailed = TRUE)
+print(mod_ez)
+```
+
+```{r pairedttest}
+# paired t-test of diff btw welfare and non-welfare images on support for cash assistance
+df_wide <- df %>%
+  spread(Image, rating)
+test = t.test(df_wide$NonWelfare, df_wide$Welfare, 
+               var.equal = TRUE, 
+               paired = TRUE)
+test
+```
+
+*Side-by-side graph with original graph is ideal here*
+```{r}
+ggplot(students, aes(x = Height)) + 
+  geom_dotplot() + 
+  coord_flip()
+```
+```{r}
+ggplot(data = ms, aes(x = Question, y = Mean_Rating, ymin = 1, ymax = 6, colour = Image)) +
+  geom_point(position = position_dodge(width = 0.1)) +
+  geom_errorbar(aes(ymin=Mean_Rating-ci, ymax=Mean_Rating+ci),  
+    width=0.1, position=position_dodge(0.1)) +
+  coord_flip() +
+  scale_colour_manual(values = c("blue", "red")) +
+  theme_classic()
+```
+
+### Data from replication of the original study (not the study the current study replicates because that data is not available online) 
+```{r cars}
+d_rep = read.spss("Study3_SupportforWelfare (2).sav", to.data.frame=TRUE)
+
+tidy.d.rep <- d_rep %>%
+  select(ID, Hardwork_W:CashS_NW, -starts_with("White")) %>%
+  mutate_each(funs(as.numeric(., na.rm=TRUE)), contains("_W")) %>%
+  mutate_each(funs(as.numeric(., na.rm=TRUE)), contains("_NW")) %>%
+  gather(Hardwork_W:CashS_NW, key=Question, value=rating) %>%
+    separate(Question, c("Question", "Image"), "_") %>%
+  mutate(Image = fct_recode(Image, "NonWelfare"="NW", "Welfare"="W")) %>%
+  na.omit()
+length(unique(tidy.d.rep$ID))
+
+ms.rep <- tidy.d.rep %>% # getting means
+  group_by(Question, Image) %>% # it removes the last var granularity
+  summarise(Mean_Rating = mean(rating, na.rm=TRUE), sd = sd(rating), sem = sem(rating), ci.lo = Mean_Rating - sem*1.96, ci.hi = Mean_Rating + sem*1.96, "ci"=ci95(rating))
+ms$Question = as.factor(ms$Question)
+
+ggplot(data = ms.rep, aes(x = Question, y = Mean_Rating, ymin = 1, ymax = 6, colour = Image)) +
+  geom_point(position = position_dodge(width = 0.1)) +
+  geom_errorbar(aes(ymin=Mean_Rating-ci, ymax=Mean_Rating+ci),  
+    width=0.1, position=position_dodge(0.1)) +
+  coord_flip() +
+  scale_colour_manual(values = c("blue", "red")) +
+  theme_classic()
+```
+
+# Recreation of original study
+```{r}
+d.study3 <- read_csv("Study3w1images.csv", na = c("", "NA")) 
+head(d)
+ggplot(data = d.study3, aes(x = Question, y = Mean_Rating, ymin = 1, ymax = 6, colour = Image)) +
+  geom_point(position = position_dodge(width = 0.1)) +
+  geom_errorbar(aes(ymin=Mean_Rating-ci, ymax=Mean_Rating+ci),  
+    width=0.1, position=position_dodge(0.1)) +
+  coord_flip() +
+  scale_colour_manual(values = c("blue", "red")) +
+  theme_classic()
+```
+
+###Exploratory analyses
+
+Any follow-up analyses desired (not required).  
+
+## Discussion
+
+### Summary of Replication Attempt
+
+Open the discussion section with a paragraph summarizing the primary result from the confirmatory analysis and the assessment of whether it replicated, partially replicated, or failed to replicate the original result.  
+
+### Commentary
+
+Add open-ended commentary (if any) reflecting (a) insights from follow-up exploratory analysis, (b) assessment of the meaning of the replication (or not) - e.g., for a failure to replicate, are the differences between original and present study ones that definitely, plausibly, or are unlikely to have been moderators of the result, and (c) discussion of any objections or challenges raised by the current and original authors about the replication attempt.  None of these need to be long.

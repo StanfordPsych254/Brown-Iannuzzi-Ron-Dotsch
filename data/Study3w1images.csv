@@ -1,0 +1,15 @@
+Question,Image,Mean_Rating,ci
+CashR,NonWelfare,3.84,0.14
+CashR,Welfare,2.88,0.16
+CashS,NonWelfare,3.8,0.15
+CashS,Welfare,2.95,0.18
+FoodR,NonWelfare,3.95,0.14
+FoodR,Welfare,3,0.15
+FoodS,NonWelfare,3.95,0.14
+FoodS,Welfare,3.1,0.17
+Hardwork,NonWelfare,4.06,0.14
+Hardwork,Welfare,2.92,0.16
+Response,NonWelfare,3.98,0.15
+Response,Welfare,2.86,0.15
+Smart,NonWelfare,4.06,0.13
+Smart,Welfare,2.73,0.17
