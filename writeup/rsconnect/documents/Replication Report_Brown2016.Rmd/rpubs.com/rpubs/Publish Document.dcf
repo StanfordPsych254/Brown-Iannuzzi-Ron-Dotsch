@@ -1,0 +1,7 @@
+name: Publish Document
+account: rpubs
+server: rpubs.com
+appId: https://api.rpubs.com/api/v1/document/260607/1f7e737793fa47e08bfee3bd513d94fa
+bundleId: https://api.rpubs.com/api/v1/document/260607/1f7e737793fa47e08bfee3bd513d94fa
+url: http://rpubs.com/catherinecthomas/260607
+when: 1490140214.45001
