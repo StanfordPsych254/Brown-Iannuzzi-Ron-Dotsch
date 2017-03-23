@@ -104,17 +104,18 @@ ci <- function(x) {sem(x) * 1.96}
 
 #### Import data	
 ```{r loaddf}
-d <- read_csv("../data/pilot_b_data.csv", na = c("", "NA")) 
+d <- read_csv("../data/BrownIannuzzi2016__Btw_Subjects__FINAL__Mar_8.csv", col_names = TRUE, col_types = NULL, na = c("", "NA")) 
 ``` 
 
 #### Data exclusion / filtering and preparing for data analysis
 ```{r tidy}
 tidy.d <- d %>%
   rename(ID = V1) %>%
+  filter(Check1 == 3 | Check2 ==3) %>% #eligibility, brings to n=55
   select(ID, Smart_W, Hardwork_W, Response_W, FoodR_W, FoodS_W, CashR_W,
   CashS_W, Smart_NW, Hardwork_NW, Response_NW, FoodR_NW, FoodS_NW, CashR_NW, 
   CashS_NW) %>%
-  na.omit(cols=CashS_W, CashS_NW) %>%
+  na.omit(cols=CashS_W, CashS_NW) %>% # eligibility, n=55
   mutate_each(funs(as.numeric(., na.rm=TRUE)), contains("_W")) %>%
   mutate_each(funs(as.numeric(., na.rm=TRUE)), contains("_NW")) %>%
   gather(Smart_W, Hardwork_W, Response_W, FoodR_W, FoodS_W, CashR_W,
@@ -136,6 +137,7 @@ The analyses as specified in the analysis plan.
 # getting table of means and 95%CI for ratings of welfare and non-welfare images
 ms <- tidy.d %>% 
   mutate(Question = fct_recode(Question, "Responsible"="Response", "Responsible w Cash Asst"="CashR", "Support of Cash Asst"="CashS", "Responsible w Food Stamps"="FoodR", "Support of Food Stamps"="FoodS", "Hardworking"="Hardwork")) %>%
+  filter(!is.na(rating)) %>%
   group_by(Question, Image) %>% # it removes the last var granularity 
   summarise(Mean_Rating = mean(rating, na.rm=TRUE), 
   sd = sd(rating), 
@@ -165,7 +167,7 @@ df_wide <- df %>%
 test = t.test(df_wide$NonWelfare, df_wide$Welfare, 
                var.equal = TRUE, 
                paired = TRUE)
-test
+test # p<0.001
 ```
 
 **Graph**
@@ -207,12 +209,59 @@ ggplot(data = d.study3, aes(x = Question, y = Mean_Rating, ymin = 1, ymax = 6, c
 ```{r exp_supportubi}
 df.btw <- d %>%
   rename(ID = V1) %>%
-  select(ID, Secure_UBISupport, Deserve_UBISupport)
+  select(ID, S_UBISupport, D_UBISupport)
 
-test.support = t.test(df.btw$Secure_UBISupport, df.btw$Deserve_UBISupport, 
+df.btw$Condition <- NA
+df.btw$Condition[!is.na(df.btw$S_UBISupport)] <- "Secure"
+df.btw$Condition[!is.na(df.btw$D_UBISupport)] <- "Deserve"
+
+
+#summary(lm(support~Condition, data=df.btw))
+test.support = t.test(df.btw$S_UBISupport, df.btw$D_UBISupport, 
                var.equal = TRUE, 
                paired = FALSE)
 test.support
+```
+
+```{r deserve}
+tidy.deserve <- d %>%
+  rename(ID = V1) %>%
+  filter(Check1 == 3 | Check2 ==3) %>%
+  select(ID, D.UbiS_W, D.UbiR_W, D.UbiS_NW, D.UbiR_NW) %>%
+  na.omit(cols=D.UbiS_W, D.UbiR_W, D.UbiS_NW, D.UbiR_NW) %>%
+  select(ID, D.UbiS_W, D.UbiR_W, D.UbiS_NW, D.UbiR_NW) %>%
+  gather(D.UbiS_W, D.UbiR_W, D.UbiS_NW, D.UbiR_NW, key=Question, value=rating) %>%
+    separate(Question, c("Question", "Image"), "_") %>%
+  mutate(Image = fct_recode(Image, "NonWelfare"="NW", "Welfare"="W"))
+
+df_D.UbiS <- tidy.deserve[tidy.deserve$Question=="D.UbiS",]
+mod_ez_D.UbiS <- ez::ezANOVA(df_D.UbiS, 
+                      dv = rating, 
+                      wid = ID, 
+                      within = .(Image), 
+                      type = 1, detailed = TRUE)
+print(mod_ez_D.UbiS)
+```
+
+```{r secure}
+tidy.deserve <- d %>%
+  rename(ID = V1) %>%
+  filter(Check1 == 3 | Check2 ==3) %>%
+  select(ID, S.UbiS_W, S.UbiR_W, S.UbiS_NW, S.UbiR_NW) %>%
+  gather(S.UbiS_W, S.UbiR_W, S.UbiS_NW, S.UbiR_NW, key=Question, value=rating) %>%
+    separate(Question, c("Question", "Image"), "_") %>%
+  mutate(Image = fct_recode(Image, "NonWelfare"="NW", "Welfare"="W")) %>%
+  filter(!is.na(rating))
+  
+  
+?t.test
+df_S.UbiS <- tidy.deserve[tidy.deserve$Question=="S.UbiS",]
+mod_ez_S.UbiS <- ez::ezANOVA(df_S.UbiS, 
+                      dv = rating, 
+                      wid = ID, 
+                      within = .(Image), 
+                      type = 1, detailed = TRUE)
+print(mod_ez_S.UbiS)
 ```
 
 <!-- ## Discussion -->
