@@ -12,22 +12,18 @@ output:
 
 # Introduction
 
-<!-- [No abstract is needed.]  Each replication project will have a straightforward, no frills report of the study and results.  These reports will be publicly available as supplementary material for the aggregate report(s) of the project as a whole.  Also, to maximize project integrity, the intro and methods will be written and critiqued in advance of data collection.  Introductions can be just 1-2 paragraphs clarifying the main idea of the original study, the target finding for replication, and any other essential information.  It will NOT have a literature review -- that is in the original publication. You can write both the introduction and the methods in past tense.   -->
+Brown-Iannuzzi et al. (2016) investigated the extent to which opposition to welfare may be driven by negative stereotypes, or mental representations, of welfare recipients. In Study 1, images of stereotypic welfare and non-welfare faces were generated through a reverse correlation task in which participants selected the image in a pair of faces that looked more like a welfare recipient. In Study 2, a separate sample was shown these images of interest (the welfare and non-welfare images) and was asked to rate these images on various characteristics, including race, laziness, responsibility, competence, and autonomy. As predicted, the stereotypic welfare recipient image generated from Study 1 was rated in Study 2 in line with stereotypes of welfare recipients and African Americans. Study 3 sought to examine how these stereotypes influenced support for welfare. It found that, compared to the stereotypic non-welfare image, participants rated the stereotypic welfare image as less responsible with food stamps and cash assistance and were less supportive of giving that person food stamps and cash assistance.
 
-Brown-Iannuzzi et al. (2016) investigate the extent to which opposition to welfare may be driven by negative stereotypes, or mental representations, of welfare recipients. In Study 1, images of stereotypic welfare and non-welfare faces were generated through a reverse correlation task in which participants selected the image in a pair of faces that looked more like a welfare recipient. In Study 2, a separate sample was shown these images of interest (the welfare and non-welfare faces) and asked to rate these images on various characteristics, such as race, laziness, responsibility, competence, autonomy. As predicted, the stereotypic welfare recipient image generated from Study 1 was rated in Study 2 in line with stereotypes of welfare recipients and African Americans. Study 3 sought to examine how these stereotypes influenced support for welfare and found that participants were less likely to rate the welfare images as responsible and less likely to support giving them welfare compared to the stereotypic non-welfare face.
-
-In this project, we replicated the Study 3 replication with Study 1 images as presented in the supplemental materials. The original study found that participants were much more likely to rate the stereotypic welfare image as less intelligent, hardworking, less reponsible broadly, and less responsible with both food stamps and cash assistance. They found support for their primary hypothesis that participants were less likely to support giving the person in the welfare image food stamps or cash assistance than the person in the non-welfare image. The primary test that this study seeks to replicate is the difference in support for cash assistance between the welfare and non-welfare images from Study 1.        
+In this project, we replicated the Study 3 replication with Study 1 images as presented in the supplemental materials. The original study found that participants were much more likely to rate the stereotypic welfare image as less intelligent, hardworking, less reponsible broadly, and less responsible with both food stamps and cash assistance. They found support for their primary hypothesis that participants were less likely to support giving the person in the welfare image food stamps or cash assistance than the person in the non-welfare image. The primary test that this study seeks to replicate is the statistical difference in participants' support for giving cash assistance to the two images, with participants being less supportive of giving cash assistance to the stereotypic welfare image compared to the stereotypic non-welfare image.        
 
 # Methods
-A sample of 58 participants will be recruited from Amazon Mechanical Turk. Using a within-subjects design, participants will be told they will see a series of "fuzzy" images and will be asked to make judgments about the face in the images based on a glance. They are told that the images are composite photos of applicants to government assistance programs and that some of the people were responsible with the benefits while others were not. They are asked to rate each image on the extent to which the person appears intelligent, hardworking, responsible, responsible with use of food stamps, and responsible with use of cash assistance. They are also asked how supportive they would be to give this person food stamps or cash assistance. 
+A sample of 58 participants was recruited from Amazon Mechanical Turk. Using a within-subjects design, participants was told they will see a series of "fuzzy" images and was asked to make judgments about the face in the images based on a glance. They were told that the images were composite photos of applicants to government assistance programs and that some of the people were responsible with the benefits while others were not. They were asked to rate each image on the extent to which the person appears intelligent, hardworking, responsible, responsible with use of food stamps, and responsible with use of cash assistance. They were also asked how supportive they would be to give this person food stamps or cash assistance. 
 
-To review the experiment, click [here](https://stanforduniversity.qualtrics.com/SE/?SID=SV_cBlO9F37Q77ESAB).
+To review the experiment, click [here](https://stanforduniversity.qualtrics.com/jfe/form/SV_cBlO9F37Q77ESAB).
 
 ## Power Analysis
 
-<!-- Original effect size, power analysis for samples to achieve 80%, 90%, 95% power to detect that effect size.  Considerations of feasibility for selecting planned sample size. -->
-
-The original study (n=234) found that participants were less supportive of giving cash assistance to the welfare-recipient image (M = 2.95, 95% CI [2.78, 3.13]) compared to the non-recipient image (M = 3.80, 95% CI [3.65, 3.96]), η^2^= 0.26. The original power to detect this effect, using a repeated measures ANOVA, was 0.99. This original study was a replication of Study 3 (n=229) in the primary paper which found that participants were less supportive of giving cash assistance to the welfare-recipient image (M = 3.57, 95% CI [3.40, 3.75]) compared to the non-recipient image (M = 4.19, 95% CI [4.03, 4.35]), η^2^=0.13. We use a weighted average of these η^2^ effect sizes (η^2^=0.20) to conduct the power analyses.
+The original study (n=234) found that participants were less supportive of giving cash assistance to the welfare-recipient image (M = 2.95, 95% CI [2.78, 3.13]) compared to the non-recipient image (M = 3.80, 95% CI [3.65, 3.96]), η^2^ = 0.26. The original power to detect this effect, using a repeated measures ANOVA, was 0.99. This original study was a replication of Study 3 (n=229) in the primary paper which found that participants were less supportive of giving cash assistance to the welfare-recipient image (M = 3.57, 95% CI [3.40, 3.75]) compared to the non-recipient image (M = 4.19, 95% CI [4.03, 4.35]), η^2^=0.13. We use a weighted average of these η^2^ effect sizes (η^2^=0.20) to conduct the power analyses.
 
 To achieve 80% power, the required sample size would be 35. 
 To achieve 90% power, the required sample size would be 45.
@@ -35,9 +31,7 @@ To achieve 95% power, the required sample size would be 55.
 To achieve 99% power, the required sample size would be 77.
 
 ## Planned Sample
-
-The planned sample size is 58 with a target of 55 fully satisfying the eligibility criteria. There will be no termination rule. The exclusion rules will be failing to commit to carefully reading the content of the experiment, failing the instructional manipulation check a second time, selecting the same response option across all items, and having completed the study in under 6 minutes.  
-
+Participants will be recruited from Amazon's Mechanical Turk, and the sample will be restricted to workers from the United States. The planned sample size is 58 with a goal of having 55 participants complete the study. There will be no termination rule. The exclusion rules will be failing to commit to carefully reading the content of the experiment, failing the instructional manipulation check a second time, selecting the same response option across all items, and having completed the study in under 6 minutes. These were more strict exclusion criteria than the original study but are considered a minimally acceptable threshold for data quality.   
 
 ## Materials & Procedure
 All of the materials, including the images and scales, for this study were published freely online at [Mental Representations of Welfare Recipients](https://dx.doi.org/10.6084/m9.figshare.c.3468495.v2). 
@@ -47,15 +41,13 @@ The procedure described in the supplemental materials was followed, as follows:
 > "Participants were told they would see a series of “fuzzy” images of real people. As an explanation for the blurry nature of the images, participants were told that the images look distorted because they were a composite of photos of people who have applied for government welfare programs. Additionally, participants were told some of the applicants turned out to be responsible recipients of welfare benefits, while others were irresponsible recipients of the benefits. Then, participants were asked to make a series of judgements about each image. Importantly, participants were given no indication whether the image was supposedly a composite of responsible or irresponsible welfare recipients. Participants then rated four filler images (the same filler images used in Study 1 and 2) so that the comparison between the two images of interest would not be salient to participants. The images of interest were the average welfare and non-recipient images generated from Study 1.
 To replicate key findings from Study 1, participants first rated each image on the degree to which the pictured person seemed intelligent (1 = extremely unintelligent; 6 = extremely intelligent) and hardworking (1 = extremely lazy; 6 = extremely hardworking). Then, participants were asked the extent to which the pictured person seemed responsible (1 = extremely irresponsible; 6 = extremely responsible). We also asked participants the extent to which they believed the pictured person would use food stamps responsibly (1 = definitely would not use responsibly; 6 = definitely would use responsibly), and would use cash assistance responsibly (1 = definitely would not use responsibly; 6 = definitely would use responsibly). Finally, participants were asked how supportive they would be to give the pictured person food stamps (1 = completely unsupportive; 6 = completely supportive) and cash assistance (1 = completely unsupportive; 6 = completely supportive). The participants also completed demographic information including gender, age, and race/ethnicity."
 
-# Analysis Plan
+## Analysis Plan
 
 The means and 95% CIs for the ratings of the two images of interest (welfare and non-welfare as generated in Study 1) on support for cash assistance will be generated in addition to the η^2^ value from a repeated measures ANOVA. Any observations with missing data on the variables for the key analysis will be excluded. While not explicitly stated, it appears as though the original authors used this exclusion rule. No covariates will be used. 
 
-<!-- **Clarify key analysis of interest here**  You can also pre-specify additional analyses you plan to do. -->
-
 For the **key analysis of interest, the η^2^ effect size will be calculated on the difference between the ratings of support of cash assistance for the welfare image compared to the non-welfare image**. This η^2^ will take into account the within-subjects correlations between the two image ratings. The replication will be considered successful if the effect size is statistically greater than zero. 
 
-As a supplmental analysis, we will run a paired t-test to assess whether ratings on support for cash assistance for the welfare image are statistically greater than those for the welfare image. This is because a paired t-test is more standard in the literature.
+As a supplmental analysis, we will run a paired t-test to assess whether ratings on support for cash assistance for the welfare image are statistically greater than those for the welfare image.
 
 We will conduct additional analyses on support for universal basic income programs. After the replication is complete (i.e. the two images of interest and the four filler images have been shown in random order), we will conduct exploratory analyses to test the effects of different messaging around a proposed welfare program of universal basic income. Participants will be randomly assigned to one of two messages regarding a new government benefits program. One arm will present a typical "universal basic income"" program messaging, the second will present a "social security for all" messaging. Support for the policy will then be assessed. Participants will then be shown the two images of interest (in random order) and asked to assess perceived responsiblity of the applicant with basic income and their support of giving the applicant basic income. 
 
@@ -63,27 +55,11 @@ For this additional analysis, first, we will first conduct a t test to assess wh
 
 ## Differences from Original Study
 
-<!-- Explicitly describe known differences in sample, setting, procedure, and analysis plan from original study.  The goal, of course, is to minimize those differences, but differences will inevitably occur. Also, note whether such differences are anticipated to make a difference based on claims in the original article or subsequent published research on the conditions for obtaining the effect. -->
+The only known deviations from this procedure were with regards to the filler images and the instructional manipulation check. The filler images for the current study were selected at random from the 400 images used in Study 1 available from the online open source materials but may not have been the same filler images used in the original study. The filler images selected may affect the outcomes as they are all visibly different in their photo quality from the welfare image photo in particular, which may make the welfare image seem particularly salient to participants. Thus the filler images may not be serving their intended purposes of masking which are in fact the target images. This may mean that the ratings of the welfare and non-welfare images are more distinct than they would have been otherwise and thus more likely to generate the hypothesized difference.
 
-The only known deviation from this procedure was with regards to the filler images and the instructional manipulation check. The filler images for the current study were selected at random from the 400 images used in Study 1 available from the online open source materials but may not have been the same filler images used in the original study. An instructional manipulation check was developed for the purposes of this study and likely differed from that used in the original study. The filler images selected may affect the outcomes as they are all visibly different in their photo quality from the welfare image photo in particular, which may make the welfare image seem particularly salient to participants.
-
-<!-- ### Methods Addendum (Post Data Collection) -->
-
-<!-- <!-- You can comment this section out prior to final report with data collection. --> -->
-
-<!-- #### Actual Sample -->
-<!--   Sample size, demographics, data exclusions based on rules spelled out in analysis plan. -->
-
-<!-- #### Differences from pre-data collection methods plan -->
-<!--     Any differences from what was described as the original plan, or “none”. -->
-
-
-# Results
-
+An instructional manipulation check was developed for the purposes of this study and likely differed from that used in the original study. The instructional manipulation check of the present study asked participants to select from which pool of applicants the composite images were drawn, as stated in the instructions. If respondents failed to select "applicants to welfare programs," then they were asked to reread the instructions and answer the check question again.  
 
 ### Data preparation
-
-Data preparation following the analysis plan.
 
 #### Load Relevant Libraries and Functions
 ```{r setup, include=FALSE}
@@ -94,6 +70,7 @@ library(forcats)
 library(car)
 library(knitr)
 library(heplots)
+library(Hmisc)
 sem <- function(x) {sd(x, na.rm=TRUE) / sqrt(length(x))}
 ci95.norm <- function(x) {
   me <- sem(x) * qnorm(.975)
@@ -112,10 +89,13 @@ d <- read_csv("../data/BrownIannuzzi2016__Btw_Subjects__FINAL__Mar_8.csv", col_n
 tidy.d <- d %>%
   rename(ID = V1) %>%
   filter(Check1 == 3 | Check2 ==3) %>% #eligibility, brings to n=55
+  separate(TotalTime, c("Date", "TotTime"), " ") %>%
+    separate(TotTime, c("Hour", "Minutes"), ":") %>%
+    mutate(Minutes = as.integer(Minutes)) %>%
+    filter(Minutes > 5) %>% # brings to n=43
   select(ID, Smart_W, Hardwork_W, Response_W, FoodR_W, FoodS_W, CashR_W,
   CashS_W, Smart_NW, Hardwork_NW, Response_NW, FoodR_NW, FoodS_NW, CashR_NW, 
-  CashS_NW) %>%
-  na.omit(cols=CashS_W, CashS_NW) %>% # eligibility, n=55
+  CashS_NW, Gender, Age, Income, Ethnic) %>%
   mutate_each(funs(as.numeric(., na.rm=TRUE)), contains("_W")) %>%
   mutate_each(funs(as.numeric(., na.rm=TRUE)), contains("_NW")) %>%
   gather(Smart_W, Hardwork_W, Response_W, FoodR_W, FoodS_W, CashR_W,
@@ -127,15 +107,222 @@ tidy.d <- d %>%
 tidy.d$Question = as.factor(tidy.d$Question)
 length(unique(tidy.d$ID))
 ```
+```{r descriptive}
+df.describ <- d %>%
+  rename(ID = V1) %>%
+  filter(Check1 == 3 | Check2 ==3) %>% #eligibility, brings to n=55
+  separate(TotalTime, c("Date", "TotTime"), " ") %>%
+    separate(TotTime, c("Hour", "Minutes"), ":") %>%
+    mutate(Minutes = as.integer(Minutes)) %>%
+    filter(Minutes > 5) %>%
+  select(ID, Gender, Age, Income, Ethnic)
+  
+table(df.describ$Gender) # 28 M, 15 F
+table(df.describ$Ethnic) # 29 White, 3 Hispanic, 5 Black, 5 Asian, 1 Other
+mean(df.describ$Age) # 35.4
+sd(df.describ$Age) # 10.86
+median(df.describ$Income, na.rm=TRUE) # 13 ($50,000-$59,999)
+```
 
-### Confirmatory analysis
+### Methods Addendum
 
-The analyses as specified in the analysis plan.  
+#### Actual Sample
+The sample size after taking into account the exclusion criteria was 43 (28 Males, 15 Females). Out of the 58 participants who completed the study, three were removed for failing to pass the instructional manipulation check twice and 12 were removed for having completed the experiment in under six minutes. None were removed for having answered the same response across all items. The mean age was 35 (SD=10.86), median income bracket was $50,000-$59,999, and the racial-ethnic composition was as follows: 67.44% White, 6.98% Hispanic, 11.63% Black, 11.63% Asian, and 2.33% Other.      
 
-**Means and 95% CIs: Ratings of Support for Cash Assistance**
+#### Differences from pre-data collection methods plan
+None
+
+# Results
+
+### Confirmatory analyses
+
+The present study replicated the original study findings on the key analysis. **Participants were less supportive of giving cash assistance to the welfare image (_M_ = 3.42, 95% CI [2.98, 3.86]) than the non-welfare image (_M_ = 3.98, 95% CI [3.62, 4.34]), η^2^=0.12, t(42)=2.41, p=0.020.** 
+
+In addition, we find the same pattern of results as the original study on the six other items. Participants rated the welfare image as less intelligent (_M_ = 3.02, 95% CI [2.59, 3.46]) than the non-welfare image (_M_ = 4.09, 95% CI [3.78, 4.40]), η^2^ = 0.37, p < 0.001. Participants rated the welfare image as less responsible (_M_ = 3.14, 95% CI [2.72, 3.56]) than the non-welfare image (_M_ = 4.21, 95% CI [3.91, 4.51]), η^2^ = 0.41, p < 0.001. Participants rated the welfare image as less hardworking (_M_ = 3.16, 95% CI [2.77, 3.55]) than the non-welfare image (_M_ = 3.93, 95% CI [3.60, 4.26]), η^2^ = 0.26, p < 0.001. Participants rated the welfare image as less responsible with food stamps (_M_ = 3.35, 95% CI [2.96, 3.73]) than the non-welfare image (_M_ = 4.21, 95% CI [3.91, 4.51]), η^2^ = 0.31, p < 0.001. Participants were less supportive of giving food stamps to the welfare image (_M_ = 3.44, 95% CI [3.07, 3.81]) than to the non-welfare image (_M_ = 4.16, 95% CI [3.81, 4.51]), η^2^ = 0.23, p < 0.001. Participants rated the welfare image as less responsible with cash assistance (_M_ = 3.42, 95% CI [2.98, 3.85]) than the non-welfare image (_M_ = 4.07, 95% CI [3.71, 4.43]), η^2^ = 0.15, p = 0.010.
+
+As in the original study, we also assess whether the extent to which participants reported the welfare image to be less intelligent, hardworking, and responsible than the non-welfare image is correlated with the extent to which they were less supportive of giving cash assistance. We find that the within-participant difference score ratings of intelligence, hardworking/laziness, and responsibility, across the welfare and non-welfare images, are positively correlated with difference scores ratings of support for cash assistance, with most _r_'s being moderate (ranging from 0.34-0.75) and _p_'s < 0.05.      
+
+**Means and 95% CIs**
 ```{r means}
 # getting table of means and 95%CI for ratings of welfare and non-welfare images
-ms <- tidy.d %>% 
+ms <- tidy.d %>%
+  mutate(Question = fct_recode(Question, "Responsible"="Response", "Responsible w Cash Asst"="CashR", "Support of Cash Asst"="CashS", "Responsible w Food Stamps"="FoodR", "Support of Food Stamps"="FoodS", "Hardworking"="Hardwork")) %>%
+  group_by(Question, Image, ID) %>%
+  summarise(rating = mean(rating)) %>% 
+  group_by(Question, Image) %>%
+  summarise(Mean_Rating = mean(rating, na.rm=TRUE), "ci" = ci(rating), ci.lo = Mean_Rating - ci, ci.hi = Mean_Rating + ci)
+
+kable(ms)
+```
+
+**ANOVA and η^2^ effect sizes**
+```{r etasq}
+# η^2^ effect size of diff btw welfare and non-welfare images on support for cash assistance
+df_CashS <- tidy.d[tidy.d$Question=="CashS",] %>%
+    filter(!is.na(rating))
+mod_ez <- ez::ezANOVA(df_CashS, 
+                      dv = rating, 
+                      wid = ID, 
+                      within = .(Image), 
+                      type = 1, detailed = TRUE)
+print(mod_ez) #eta=0.12, p=0.020
+
+df_CashR <- tidy.d[tidy.d$Question=="CashR",] %>%
+    filter(!is.na(rating))
+mod_ez <- ez::ezANOVA(df_CashR, 
+                      dv = rating, 
+                      wid = ID, 
+                      within = .(Image), 
+                      type = 1, detailed = TRUE)
+print(mod_ez)
+
+df_Smart <- tidy.d[tidy.d$Question=="Smart",] %>%
+    filter(!is.na(rating))
+mod_ez <- ez::ezANOVA(df_Smart, 
+                      dv = rating, 
+                      wid = ID, 
+                      within = .(Image), 
+                      type = 1, detailed = TRUE)
+print(mod_ez)
+
+df_Responsible <- tidy.d[tidy.d$Question=="Response",] %>%
+    filter(!is.na(rating))
+mod_ez <- ez::ezANOVA(df_Responsible, 
+                      dv = rating, 
+                      wid = ID, 
+                      within = .(Image), 
+                      type = 1, detailed = TRUE)
+print(mod_ez)
+
+df_Hardwork <- tidy.d[tidy.d$Question=="Hardwork",] %>%
+    filter(!is.na(rating))
+mod_ez <- ez::ezANOVA(df_Hardwork, 
+                      dv = rating, 
+                      wid = ID, 
+                      within = .(Image), 
+                      type = 1, detailed = TRUE)
+print(mod_ez)
+
+
+df_FoodR <- tidy.d[tidy.d$Question=="FoodR",] %>%
+    filter(!is.na(rating))
+mod_ez <- ez::ezANOVA(df_FoodR, 
+                      dv = rating, 
+                      wid = ID, 
+                      within = .(Image), 
+                      type = 1, detailed = TRUE)
+print(mod_ez)
+
+df_FoodS <- tidy.d[tidy.d$Question=="FoodS",] %>%
+    filter(!is.na(rating))
+mod_ez <- ez::ezANOVA(df_FoodS, 
+                      dv = rating, 
+                      wid = ID, 
+                      within = .(Image), 
+                      type = 1, detailed = TRUE)
+print(mod_ez)
+```
+
+**Paired t test**
+```{r pairedttest}
+# paired t-test of diff btw welfare and non-welfare images on support for cash assistance
+df_wide <- df_CashS %>%
+  spread(Image, rating) %>%
+  filter(!is.na(Welfare)) %>%
+  filter(!is.na(NonWelfare))
+
+test = t.test(df_wide$NonWelfare, df_wide$Welfare, 
+               var.equal = TRUE, 
+               paired = TRUE)
+test # p=0.020
+```
+
+```{r}
+d.diffs <- d %>%
+  rename(ID = V1) %>%
+  filter(Check1 == 3 | Check2 ==3) %>% #eligibility, brings to n=55
+  separate(TotalTime, c("Date", "TotTime"), " ") %>%
+    separate(TotTime, c("Hour", "Minutes"), ":") %>%
+    mutate(Minutes = as.integer(Minutes)) %>%
+    filter(Minutes > 5) %>%
+  mutate(diff_CashS = CashS_NW - CashS_W) %>%
+  mutate(diff_CashR = CashR_NW - CashR_W) %>%
+  mutate(diff_Hardwork = Hardwork_NW - Hardwork_W) %>%
+  mutate(diff_Response = Response_NW - Response_W) %>%
+  mutate(diff_Smart = Smart_NW - Smart_W) %>%
+  select(starts_with("diff_"))
+
+cor.test.p <- function(x){
+    FUN <- function(x, y) cor.test(x, y)[["p.value"]]
+    z <- outer(
+      colnames(x), 
+      colnames(x), 
+      Vectorize(function(i,j) FUN(x[,i], x[,j]))
+    )
+    dimnames(z) <- list(colnames(x), colnames(x))
+    z
+}
+
+rcorr(as.matrix(d.diffs))
+```
+
+**Load data from original study**
+```{r echo=FALSE}
+d.study3 <- read_csv("../data/Study3w1images.csv", na = c("", "NA")) 
+d.study3$Question = as.factor(d.study3$Question)
+levels(d.study3$Question) <- c("Responsible w Cash Asst","Support of Cash Asst","Responsible w Food Stamps","Support of Food Stamps","Hardworking","Responsible","Smart")
+```
+
+**Graphs**
+```{r echo=FALSE}
+ggplot(data = d.study3, aes(x = Question, y = Mean_Rating, ymin = 1, ymax = 6, colour = Image)) +
+  geom_point() +
+  geom_errorbar(aes(ymin=Mean_Rating-ci, ymax=Mean_Rating+ci), width=0.2) +
+  scale_y_discrete(limits=c(1:6)) +
+  coord_flip() +
+  scale_colour_manual(values = c("cyan4", "purple4")) +
+  theme_classic()  +
+  ggtitle("Original Study: Mean Ratings of Critical Images") +
+  xlab("Judgment") +
+  ylab("Rating") +
+  theme(legend.title = element_blank())
+
+ggplot(data = ms, aes(x = Question, y = Mean_Rating, ymin = 1, ymax = 6, colour = Image)) +
+  geom_point() +
+  geom_errorbar(aes(ymin=Mean_Rating-ci, ymax=Mean_Rating+ci), width=0.2) +
+  scale_y_discrete(limits=c(1:6)) +
+  coord_flip() +
+  scale_colour_manual(values = c("cyan4", "purple4")) +
+  theme_classic() +
+  ggtitle("Replication: Mean Ratings of Critical Images") +
+  xlab("Judgment") +
+  ylab("Rating") +
+  theme(legend.title = element_blank())
+```
+
+**Fillers**
+```{r echo=FALSE}
+# Filler1
+tidy.d1 <- d %>%
+  rename(ID = V1) %>%
+  filter(Check1 == 3 | Check2 ==3) %>% #eligibility, brings to n=55
+  select(ID, Smart_F1, Hardwork_F1, Response_F1, FoodR_F1, FoodS_F1, CashR_F1,
+  CashS_F1, Smart_NW, Hardwork_NW, Response_NW, FoodR_NW, FoodS_NW, CashR_NW, 
+  CashS_NW) %>%
+  na.omit(cols=CashS_F1, CashS_NW) %>% # eligibility, n=55
+  mutate_each(funs(as.numeric(., na.rm=TRUE)), contains("_F1")) %>%
+  mutate_each(funs(as.numeric(., na.rm=TRUE)), contains("_NW")) %>%
+  gather(Smart_F1, Hardwork_F1, Response_F1, FoodR_F1, FoodS_F1, CashR_F1,
+  CashS_F1, Smart_NW, Hardwork_NW, Response_NW, FoodR_NW, FoodS_NW, CashR_NW, 
+  CashS_NW, key=Question, value=rating) %>%
+    separate(Question, c("Question", "Image"), "_") %>%
+  mutate(Image = fct_recode(Image, "NonWelfare"="NW", "Filler1"="F1"))
+
+tidy.d$Question = as.factor(tidy.d$Question)
+length(unique(tidy.d$ID))
+
+# getting table of means and 95%CI for ratings of welfare and non-welfare images
+ms1 <- tidy.d1 %>% 
   mutate(Question = fct_recode(Question, "Responsible"="Response", "Responsible w Cash Asst"="CashR", "Support of Cash Asst"="CashS", "Responsible w Food Stamps"="FoodR", "Support of Food Stamps"="FoodS", "Hardworking"="Hardwork")) %>%
   filter(!is.na(rating)) %>%
   group_by(Question, Image) %>% # it removes the last var granularity 
@@ -145,60 +332,60 @@ ms <- tidy.d %>%
   "ci" = ci(rating), 
   ci.lo = Mean_Rating - ci, 
   ci.hi = Mean_Rating + ci)
-```
 
-**ANOVA: Ratings of Support for Cash Assistance**
-```{r etasq}
-# η^2^ effect size of diff btw welfare and non-welfare images on support for cash assistance
-df <- tidy.d[tidy.d$Question=="CashS",]
-mod_ez <- ez::ezANOVA(df, 
-                      dv = rating, 
-                      wid = ID, 
-                      within = .(Image), 
-                      type = 1, detailed = TRUE)
-print(mod_ez)
-```
-
-**Paired t test: Ratings of Support for Cash Assistance**
-```{r pairedttest}
-# paired t-test of diff btw welfare and non-welfare images on support for cash assistance
-df_wide <- df %>%
-  spread(Image, rating)
-test = t.test(df_wide$NonWelfare, df_wide$Welfare, 
-               var.equal = TRUE, 
-               paired = TRUE)
-test # p<0.001
-```
-
-**Graph**
-```{r}
-ggplot(data = ms, aes(x = Question, y = Mean_Rating, ymin = 1, ymax = 6, colour = Image)) +
+ggplot(data = ms1, aes(x = Question, y = Mean_Rating, ymin = 1, ymax = 6, colour = Image)) +
   geom_point() +
   geom_errorbar(aes(ymin=Mean_Rating-ci, ymax=Mean_Rating+ci), width=0.2) +
   scale_y_discrete(limits=c(1:6)) +
   coord_flip() +
   scale_colour_manual(values = c("cyan4", "purple4")) +
   theme_classic() +
-  ggtitle("Mean Ratings of Critical Images") +
+  ggtitle("Mean Ratings of Filler1 vs. Non-Welfare") +
   xlab("Judgment") +
   ylab("Rating") +
   theme(legend.title = element_blank())
 ```
 
-### Data from original study
 ```{r}
-d.study3 <- read_csv("../data/Study3w1images.csv", na = c("", "NA")) 
-d.study3$Question = as.factor(d.study3$Question)
-levels(d.study3$Question) <- c("Responsible w Cash Asst","Support of Cash Asst","Responsible w Food Stamps","Support of Food Stamps","Hardworking","Responsible","Smart")
+# Filler 2
+tidy.d2 <- d %>%
+  rename(ID = V1) %>%
+  filter(Check1 == 3 | Check2 ==3) %>% #eligibility, brings to n=55
+  select(ID, Smart_F2, Hardwork_F2, Response_F2, FoodR_F2, FoodS_F2, CashR_F2,
+  CashS_F2, Smart_NW, Hardwork_NW, Response_NW, FoodR_NW, FoodS_NW, CashR_NW, 
+  CashS_NW) %>%
+  na.omit(cols=CashS_F2, CashS_NW) %>% # eligibility, n=55
+  mutate_each(funs(as.numeric(., na.rm=TRUE)), contains("_F2")) %>%
+  mutate_each(funs(as.numeric(., na.rm=TRUE)), contains("_NW")) %>%
+  gather(Smart_F2, Hardwork_F2, Response_F2, FoodR_F2, FoodS_F2, CashR_F2,
+  CashS_F2, Smart_NW, Hardwork_NW, Response_NW, FoodR_NW, FoodS_NW, CashR_NW, 
+  CashS_NW, key=Question, value=rating) %>%
+    separate(Question, c("Question", "Image"), "_") %>%
+  mutate(Image = fct_recode(Image, "NonWelfare"="NW", "Filler2"="F2"))
 
-ggplot(data = d.study3, aes(x = Question, y = Mean_Rating, ymin = 1, ymax = 6, colour = Image)) +
+tidy.d$Question = as.factor(tidy.d$Question)
+length(unique(tidy.d$ID))
+
+# getting table of means and 95%CI for ratings of welfare and non-welfare images
+ms2 <- tidy.d2 %>% 
+  mutate(Question = fct_recode(Question, "Responsible"="Response", "Responsible w Cash Asst"="CashR", "Support of Cash Asst"="CashS", "Responsible w Food Stamps"="FoodR", "Support of Food Stamps"="FoodS", "Hardworking"="Hardwork")) %>%
+  filter(!is.na(rating)) %>%
+  group_by(Question, Image) %>% # it removes the last var granularity 
+  summarise(Mean_Rating = mean(rating, na.rm=TRUE), 
+  sd = sd(rating), 
+  sem = sem(rating), 
+  "ci" = ci(rating), 
+  ci.lo = Mean_Rating - ci, 
+  ci.hi = Mean_Rating + ci)
+
+ggplot(data = ms2, aes(x = Question, y = Mean_Rating, ymin = 1, ymax = 6, colour = Image)) +
   geom_point() +
   geom_errorbar(aes(ymin=Mean_Rating-ci, ymax=Mean_Rating+ci), width=0.2) +
   scale_y_discrete(limits=c(1:6)) +
   coord_flip() +
   scale_colour_manual(values = c("cyan4", "purple4")) +
-  theme_classic()  +
-  ggtitle("Mean Ratings of Critical Images") +
+  theme_classic() +
+  ggtitle("Mean Ratings of Filler 2 vs. Non-Welfare Images") +
   xlab("Judgment") +
   ylab("Rating") +
   theme(legend.title = element_blank())
@@ -209,32 +396,53 @@ ggplot(data = d.study3, aes(x = Question, y = Mean_Rating, ymin = 1, ymax = 6, c
 ```{r exp_supportubi}
 df.btw <- d %>%
   rename(ID = V1) %>%
-  select(ID, S_UBISupport, D_UBISupport)
-
+  filter(Check1 == 3 | Check2 ==3) %>% #eligibility, brings to n=55
+  separate(TotalTime, c("Date", "TotTime"), " ") %>%
+    separate(TotTime, c("Hour", "Minutes"), ":") %>%
+    mutate(Minutes = as.integer(Minutes)) %>%
+    filter(Minutes > 5) %>% # brings to n=43
+  select(ID, S.UBISupport, D.UBISupport)
+      
 df.btw$Condition <- NA
-df.btw$Condition[!is.na(df.btw$S_UBISupport)] <- "Secure"
-df.btw$Condition[!is.na(df.btw$D_UBISupport)] <- "Deserve"
+df.btw$Condition[!is.na(df.btw$S.UBISupport)] <- "Secure"
+df.btw$Condition[!is.na(df.btw$D.UBISupport)] <- "Deserve"
 
+mean(d$S.UBISupport, na.rm=TRUE)
+sd(d$S.UBISupport, na.rm=TRUE)
+mean(d$D.UBISupport, na.rm=TRUE)
+sd(d$D.UBISupport, na.rm=TRUE)
+# d=0.3495, posthoc power=26%
 
-#summary(lm(support~Condition, data=df.btw))
-test.support = t.test(df.btw$S_UBISupport, df.btw$D_UBISupport, 
-               var.equal = TRUE, 
+# rs_btw = lm(rating~Condition, data=df.btw)
+# summary(rs_btw)
+
+test.support = t.test(df.btw$S.UBISupport, df.btw$D.UBISupport,
+               var.equal = TRUE,
                paired = FALSE)
-test.support
+test.support # t(41), p=0.69
 ```
+
+In the between-subjects design, we find that there is no difference in support for basic income policies across conditions, i.e. when the policy is framed as "social security for all" or "universal basic income" across t(41)=-0.39, p>0.05. 
+In the within-subjects design, we assess whether there is a statistical difference in support for a basic income policy for the welfare versus non-welfare image within each condition. Similar to the results for other forms of welfare (i.e. food stamps and cash assistance), we find in the "social security for all" condition that participants are marginally less supportive of giving basic income to the welfare image (_M_ = 3.26, 95% CI [2.87-3.64]) compared to the non-welfare image (_M_ = 3.81, 95% CI [3.44-4.19]; η^2^ = 0.12, p=0.066). Interestingly, we find that this difference disappears in the "universal basic income" condition such that participants are as supportive of giving the welfare image basic income (_M_ = 3.57, 95% CI [3.21-3.93]) as they are of giving the non-welfare image basic income (_M_ = 4.04, 95% CI [3.67-4.41]; η^2^ = 0.07, p=0.157).
 
 ```{r deserve}
 tidy.deserve <- d %>%
   rename(ID = V1) %>%
   filter(Check1 == 3 | Check2 ==3) %>%
   select(ID, D.UbiS_W, D.UbiR_W, D.UbiS_NW, D.UbiR_NW) %>%
-  na.omit(cols=D.UbiS_W, D.UbiR_W, D.UbiS_NW, D.UbiR_NW) %>%
-  select(ID, D.UbiS_W, D.UbiR_W, D.UbiS_NW, D.UbiR_NW) %>%
   gather(D.UbiS_W, D.UbiR_W, D.UbiS_NW, D.UbiR_NW, key=Question, value=rating) %>%
     separate(Question, c("Question", "Image"), "_") %>%
   mutate(Image = fct_recode(Image, "NonWelfare"="NW", "Welfare"="W"))
 
-df_D.UbiS <- tidy.deserve[tidy.deserve$Question=="D.UbiS",]
+ms.deserve <- tidy.deserve %>%
+  group_by(Question, Image, ID) %>%
+  summarise(rating = mean(rating)) %>% 
+  group_by(Question, Image) %>%
+  summarise(Mean_Rating = mean(rating, na.rm=TRUE), "ci" = ci(rating), ci.lo = Mean_Rating - ci, ci.hi = Mean_Rating + ci)
+
+df_D.UbiS <- tidy.deserve[tidy.deserve$Question=="D.UbiS",] %>%
+  filter(!is.na(rating))
+
 mod_ez_D.UbiS <- ez::ezANOVA(df_D.UbiS, 
                       dv = rating, 
                       wid = ID, 
@@ -244,18 +452,23 @@ print(mod_ez_D.UbiS)
 ```
 
 ```{r secure}
-tidy.deserve <- d %>%
+tidy.secure <- d %>%
   rename(ID = V1) %>%
   filter(Check1 == 3 | Check2 ==3) %>%
   select(ID, S.UbiS_W, S.UbiR_W, S.UbiS_NW, S.UbiR_NW) %>%
   gather(S.UbiS_W, S.UbiR_W, S.UbiS_NW, S.UbiR_NW, key=Question, value=rating) %>%
     separate(Question, c("Question", "Image"), "_") %>%
-  mutate(Image = fct_recode(Image, "NonWelfare"="NW", "Welfare"="W")) %>%
+  mutate(Image = fct_recode(Image, "NonWelfare"="NW", "Welfare"="W"))
+
+ms.secure <- tidy.secure %>%
+  group_by(Question, Image, ID) %>%
+  summarise(rating = mean(rating)) %>% 
+  group_by(Question, Image) %>%
+  summarise(Mean_Rating = mean(rating, na.rm=TRUE), "ci" = ci(rating), ci.lo = Mean_Rating - ci, ci.hi = Mean_Rating + ci)
+
+df_S.UbiS <- tidy.secure[tidy.secure$Question=="S.UbiS",] %>%
   filter(!is.na(rating))
-  
-  
-?t.test
-df_S.UbiS <- tidy.deserve[tidy.deserve$Question=="S.UbiS",]
+
 mod_ez_S.UbiS <- ez::ezANOVA(df_S.UbiS, 
                       dv = rating, 
                       wid = ID, 
@@ -264,12 +477,14 @@ mod_ez_S.UbiS <- ez::ezANOVA(df_S.UbiS,
 print(mod_ez_S.UbiS)
 ```
 
-<!-- ## Discussion -->
+# Discussion
 
-<!-- ### Summary of Replication Attempt -->
+### Summary of Replication Attempt
 
-<!-- <!-- Open the discussion section with a paragraph summarizing the primary result from the confirmatory analysis and the assessment of whether it replicated, partially replicated, or failed to replicate the original result.   --> -->
+This study replicated Study 3 with Study 1 images in the suppplemental materials of Brown-Iannuzzi et al. (2016). The key analysis for replication was the statistical difference in ratings of support for giving cash assistance to the person depicted in the stereotypic welfare image compared to the stereotypic non-welfare image. We are able to fully replicate the original study finding that participants are statistically less supportive of giving cash assistance to the stereotypic welfare image compared to the non-welfare image. The effect size obtained is smaller in magnitude than the original study but is significantly different from zero. We also find support for the predicted pattern of results across all judgments of the images; we find, as a manipulation check, that participants judge the welfare image to be less intelligent, less responsible broadly, and less hardworking than the non-welfare image, a pattern which reflects stereotypes of welfare applicants and the findings of Study 2. We also find that participants view the person depicted in the welfare image as less responsible with both food stamps and cash assistance and are less likely to support giving this person cash assistance and food stamps compared to the person depicted in the non-welfare image. Thus, we find support for the hypothesis that individuals' mental representations of welfare applicants affects how willing they are to support welfare programs.          
 
-<!-- ### Commentary -->
+### Commentary
 
-<!-- <!-- Add open-ended commentary (if any) reflecting (a) insights from follow-up exploratory analysis, (b) assessment of the meaning of the replication (or not) - e.g., for a failure to replicate, are the differences between original and present study ones that definitely, plausibly, or are unlikely to have been moderators of the result, and (c) discussion of any objections or challenges raised by the current and original authors about the replication attempt.  None of these need to be long. --> -->
+We find support for the original paper's theory in our pattern of findings. First, we find that the key analysis is replicated. Second, we find the same pattern of results across all items with regards to the within-participant differences between the two images of interest as observed in the original study and the replication of that original study. Third, based on the author's theory, the filler images are between the two critical images in terms of the extent to which they prime welfare stereotypes. Accordingly, we find that the differences in the judgments between the stereotypic non-welfare image and the filler images are less than those found between the stereotypic welfare and stereotypic non-welfare images. Fourth, we find that the extent to which participants rated the welfare image to be less intelligent, hardworking, and responsible than the non-welfare images is positively correlated to the extent to which they were less supportive of giving the welfare image cash assistance. For these reasons, we consider our replication to be successful and to support the theory of Brown-Iannuzzi et al. (2016).   
+
+In the exploratory analysis, we find that whether participants are randomized to learn about basic income as "social security for all" or as "universal basic income" does not affect ratings of support for the policy. However, according to a posthoc power analysis, we only had 26% power to detect a difference in these ratings between the groups if one existed. While we find that, in the "social security for all" condition, participants are marginally less likely to support giving the stereotypic welfare image basic income compared to the non-welfare image, participants appear less likely to have differential ratings of support for a basic income policy across the stereotypic welfare and non-welfare images in the "universal basic income" condition. We cannot conclude that there is no difference between ratings in the "universal basic income" condition because of the low power and the possibility of committing a Type II error. However, these findings suggest that a "social security for all" welfare policy may be influenced by welfare mental representations in a similar way to other forms of welfare but that the idea of a "universal basic income" policy may not be as tightly linked to mental representations of welfare applicants. Thus, it may be possible to reduce the influence of welfare stereotypes on individuals' support for welfare policies by changing the language used to describe welfare policies.           
